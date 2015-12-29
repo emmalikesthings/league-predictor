@@ -24,6 +24,7 @@
 
 <ul>
 <li>To train a machine learning application to successfully predict the winner of a League of Legends match based on the history of the match participants.</li>
+<li>To train a machine learning application to assign a degree of aggressiveness (Passive, Average or Aggressive) to the enemy team.</li>
 <li>To create an application interface to interact with the system. </li>
 </ul>
 
@@ -31,8 +32,9 @@
 <a id="method" class="anchor" href="#method" aria-hidden="true"><span class="octicon octicon-link"></span></a>Method</h1>
 
 <ul>
-<li>A range of prediction methods will be trialed to see which is the most effective, including Neural Networks and Naive Bayes.</li>
+<li>A MLP Neural Network with Back Propagation will be used to determine the match outcome. </li>
 <li>Information on participants will be collected using the API, including their win rate on the champion picked, weighted win rate on the champion picked based on number of games played, ranked win rate and weighted ranked win rate based on number of games played. </li>
+<li>Fuzzy Logic will be used to assign a degree of aggressiveness, with the average Kills Per Game of the enemy team being ran through the system. </li>
 </ul>
 
       <footer class="site-footer">
